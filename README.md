@@ -3,11 +3,42 @@
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.807719.svg)](https://doi.org/10.5281/zenodo.807719)
 
-| Resource:     | CRAN                                                                                                                                                                     | Travis CI                                                                                                                                               | Appveyor                                                                                                                                                                      |
-|---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Platforms:*  | *Multiple*                                                                                                                                                               | *Linux & macOS*                                                                                                                                         | *Windows*                                                                                                                                                                     |
-| R CMD check   | <a href="https://cran.r-project.org/web/checks/check_results_oddsratio.html"><img border="0" src="http://www.r-pkg.org/badges/version/oddsratio" alt="CRAN version"></a> | <a href="https://travis-ci.org/pat-s/oddsratio"><img src="https://travis-ci.org/pat-s/oddsratio.svg?branch=dev" alt="Build status"></a>                 | <a href="https://ci.appveyor.com/project/pat-s/oddsratio"><img src="https://ci.appveyor.com/api/projects/status/p72njexjxqa9ko96/branch/dev?svg=true" alt="Build status"></a> |
-| Test coverage |                                                                                                                                                                          | <a href="https://codecov.io/gh/pat-s/oddsratio"><img src="https://codecov.io/gh/pat-s/oddsratio/branch/dev/graph/badge.svg" alt="Coverage Status"/></a> |                                                                                                                                                                               |
+<table style="width:93%;">
+<colgroup>
+<col width="19%" />
+<col width="27%" />
+<col width="22%" />
+<col width="23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Resource:</th>
+<th align="left">CRAN</th>
+<th align="left">Travis CI</th>
+<th align="left">Appveyor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><em>Platforms:</em></td>
+<td align="left"><em>Multiple</em></td>
+<td align="left"><em>Linux &amp; macOS</em></td>
+<td align="left"><em>Windows</em></td>
+</tr>
+<tr class="even">
+<td align="left">R CMD check</td>
+<td align="left"><a href="https://cran.r-project.org/web/checks/check_results_oddsratio.html"><img border="0" src="http://www.r-pkg.org/badges/version/oddsratio" alt="CRAN version"></a></td>
+<td align="left"><a href="https://travis-ci.org/pat-s/oddsratio"><img src="https://travis-ci.org/pat-s/oddsratio.svg?branch=dev" alt="Build status"></a></td>
+<td align="left"><a href="https://ci.appveyor.com/project/pat-s/oddsratio"><img src="https://ci.appveyor.com/api/projects/status/p72njexjxqa9ko96/branch/dev?svg=true" alt="Build status"></a></td>
+</tr>
+<tr class="odd">
+<td align="left">Test coverage</td>
+<td align="left"></td>
+<td align="left"><a href="https://codecov.io/gh/pat-s/oddsratio"><img src="https://codecov.io/gh/pat-s/oddsratio/branch/dev/graph/badge.svg" alt="Coverage Status"/></a></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
 
 #### CRAN
 
