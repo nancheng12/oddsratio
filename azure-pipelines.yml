@@ -1,0 +1,25 @@
+pool:
+  vmImage: 'ubuntu-18.04'
+
+container:
+  image: 'rocker/verse'
+
+variables:
+  _R_CHECK_FORCE_SUGGESTS_: false
+  MAKEFLAGS: "-j 2"
+
+steps:
+- bash: R -q -e 'writeLines(".libPaths(\"~/R-private\")", ".Rprofile"); dir.create("~/R-private", recursive = TRUE)'
+  displayName: "preliminaries"
+- bash: R -q -e 'install.packages(c("remotes", "curl", "knitr", "rmarkdown")); remotes::install_github("ropensci/tic"); tic::prepare_all_stages(); tic::before_install()'
+  displayName: 'before_install'
+- bash: R -q -e 'tic::install()'
+  displayName: 'install'
+- bash: R -q -e 'tic::after_install()'
+  displayName: 'after_install'
+- bash: R -q -e 'tic::before_script()'
+  displayName: 'before_script'
+- bash: R -q -e 'tic::script()'
+  displayName: 'script'
+- bash: R -q -e 'tic::after_success()'
+  displayName: 'after_success'
